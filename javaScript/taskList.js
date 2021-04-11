@@ -24,7 +24,7 @@ let displayList=()=>
 	{
 		eachRow+=`<li class="list-group-item list-group-item-warning list-group-item-action">
  						<span class="font-weight-bold">${task}</span>
- 						<button class="close">
+ 						<button class="close" id="icon">
  							<i class="fa fa-window-close"></i>
  						</button>
  					</li>`;
